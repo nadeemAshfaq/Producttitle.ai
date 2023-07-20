@@ -1,1 +1,146 @@
-﻿<!DOCTYPE html><html><head>    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-messages.min.js"></script>    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>           <link href="Home.css" rel="stylesheet" /></head><body class="ms-Fabric" dir="ltr" ng-app="producttileApp" ng-controller="producttileControler">    <!--//////////////////////Home page////////////////////////-->    <!--<div id="homePage">        <div id="headerHome">            <img src="Images/80.png" />        </div>        <div id="welcomeNote">            <h4>Welcome to Producttile.ai</h4>        </div>        <div id="logIcons">            <i class="fa-sharp fa-solid fa-table-list"></i>            Boost the listing traffic with lattest AI modal generate titles        </div>        <div id="logIcons">            <i class="fa-solid fa-equals"></i>            Boost the listing traffic with lattest AI modal generate titles        </div>        <div id="logIcons">            <i class="fa-solid fa-brain"></i>            Boost the listing traffic with lattest AI modal generate titles        </div>        <button type="button" class="btn btn-success">Success</button>    </div>-->    <!--//////////////////////////////Formula page///////////////////////////-->    <!--<div id="headerScnd">        <h6>Producttile.ai is your AI-powered tool box for spreadsheets</h6>    </div>    <div id="chatgptPage">        <div id="generalFunctionCard">            <h6 style="margin-left:10px;margin-bottom:-10px">General Functions</h6>            <div class="card">                <div class="card-body">                    some text come here                    <i class="fa-solid fa-arrow-right"></i>                    <i class="fa-solid fa-chevron-right right-icon"></i>                </div>            </div>            <div class="class=" container"">                <div class="card">                    <div class="card-body">                        use chatgpt to answer questions                        <i class="fa-solid fa-arrow-right"></i>                        <i class="fa-solid fa-chevron-right right-icon"></i>                    </div>                </div>                <div class="card">                    <div class="card-body">                        some text come here                        <i class="fa-solid fa-arrow-right"></i>                        <i ng-click="Apply()" class="fa-solid fa-chevron-right right-icon"></i>                    </div>                </div>            </div>            <div id="formulas">                <h6 style="margin-left:10px;margin-bottom:-10px">Formulas</h6>                <div class="card">                    <div class="card-body">                        <i class="fa-solid fa-pencil"></i>                        Generate Formula                    </div>                    <div class="card-body">                        <i class="fa-solid fa-message"></i>                        Explain Formula                    </div>                </div>            </div>        </div>        <div id="data">            <h6 style="margin-left:10px;margin-bottom:-10px">Data</h6>            <div class="card">                <div class="card-body">                    <i class="fa-solid fa-book"></i>                    Classify                </div>                <div class="card-body">                    <i class="fa-solid fa-wand-magic-sparkles"></i>                    Reformat                </div>            </div>        </div>    </div>-->    <!--///////////////generate title//////////////////-->    <div>        <div id="formula">            <p>Formula</p>            <h6>=newtitle(A1,B1,C1)</h6>        </div>        <div id="img">            <img src="/Images/excelimg.png" alt="Image description">        </div>        <div id="info">            <h6>A1 : Existing title that needs optimization</h6>            <p>Eg. Iphone 11</p>            <h6>B1 : Product discreption & selling points to let chatgpt understand your product. The more comprehensine the better</h6>            <p>Eg. The iphone 11 display has rounded corners that follow a beautiful curved design,and these corners are within a stsndard rectangle.when measured as a stsndard rectangular shape,the screen is 6.06 inches diagonally (actual viewable area is less).video playback: Up to 17 hours. </p>            <h6>C1 : any additional requirments(optional)</h6>            <p>Eg. More than 50 words and be precise and clear</p>        </div>    </div>        <script src="Home.js"></script>    <script src="Functions/FunctionFile.js"></script></body></html>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+   
+
+
+    
+    <link href="Home.css" rel="stylesheet" />
+</head>
+
+<body class="ms-Fabric" dir="ltr" ng-app="producttileApp" ng-controller="producttileControler">
+
+    <!--//////////////////////Home page////////////////////////-->
+    <!--<div id="homePage">
+        <div id="headerHome">
+            <img src="Images/80.png" />
+
+        </div>
+
+        <div id="welcomeNote">
+            <h4>Welcome to Producttile.ai</h4>
+        </div>
+
+        <div id="logIcons">
+            <i class="fa-sharp fa-solid fa-table-list"></i>
+            Boost the listing traffic with lattest AI modal generate titles
+        </div>
+        <div id="logIcons">
+            <i class="fa-solid fa-equals"></i>
+            Boost the listing traffic with lattest AI modal generate titles
+        </div>
+        <div id="logIcons">
+            <i class="fa-solid fa-brain"></i>
+            Boost the listing traffic with lattest AI modal generate titles
+        </div>
+        <button type="button" class="btn btn-success">Success</button>
+
+    </div>-->
+    <!--//////////////////////////////Formula page///////////////////////////-->
+    <!--<div id="headerScnd">
+        <h6>Producttile.ai is your AI-powered tool box for spreadsheets</h6>
+    </div>
+    <div id="chatgptPage">
+
+        <div id="generalFunctionCard">
+            <h6 style="margin-left:10px;margin-bottom:-10px">General Functions</h6>
+            <div class="card">
+                <div class="card-body">
+                    some text come here
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-chevron-right right-icon"></i>
+                </div>
+            </div>
+            <div class="class=" container"">
+                <div class="card">
+                    <div class="card-body">
+                        use chatgpt to answer questions
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <i class="fa-solid fa-chevron-right right-icon"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        some text come here
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <i ng-click="Apply()" class="fa-solid fa-chevron-right right-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="formulas">
+                <h6 style="margin-left:10px;margin-bottom:-10px">Formulas</h6>
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fa-solid fa-pencil"></i>
+                        Generate Formula
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-message"></i>
+                        Explain Formula
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="data">
+            <h6 style="margin-left:10px;margin-bottom:-10px">Data</h6>
+            <div class="card">
+                <div class="card-body">
+                    <i class="fa-solid fa-book"></i>
+                    Classify
+                </div>
+                <div class="card-body">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    Reformat
+                </div>
+            </div>
+        </div>
+
+
+    </div>-->
+    <!--///////////////generate title//////////////////-->
+    <div>
+        <div id="formula">
+            <p>Formula</p>
+            <h6>=newtitle(A1,B1,C1)</h6>
+        </div>
+        <div id="img">
+            <img src="https://nadeemashfaq.github.io/Producttitle.ai/producttile.aiWeb/Images/excelimg.png" alt="Image description">
+        </div>
+
+        <div id="info">
+            <h6>A1 : Existing title that needs optimization</h6>
+            <p>Eg. Iphone 11</p>
+
+            <h6>B1 : Product discreption & selling points to let chatgpt understand your product. The more comprehensine the better</h6>
+            <p>Eg. The iphone 11 display has rounded corners that follow a beautiful curved design,and these corners are within a stsndard rectangle.when measured as a stsndard rectangular shape,the screen is 6.06 inches diagonally (actual viewable area is less).video playback: Up to 17 hours. </p>
+
+            <h6>C1 : any additional requirments(optional)</h6>
+            <p>Eg. More than 50 words and be precise and clear</p>
+        </div>
+    </div>
+
+    
+
+    <script src="Home.js"></script>
+    <script src="Functions/FunctionFile.js"></script>
+</body>
+</html>
