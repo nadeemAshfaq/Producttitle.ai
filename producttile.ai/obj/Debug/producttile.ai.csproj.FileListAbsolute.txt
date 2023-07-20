@@ -1,0 +1,2 @@
+E:\producttile.ai\producttile.ai\obj\Debug\producttile.ai.csproj.AssemblyReference.cache
+E:\producttile.ai\producttile.ai\obj\Debug\producttile.ai.csproj.CoreCompileInputs.cache

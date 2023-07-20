@@ -1,0 +1,26 @@
+{
+  "functions": [
+    {
+      "description": "Ask Any Question",
+      "id": "PRODUCTTILE",
+      "name": "PRODUCTTILE",
+      "parameters": [
+        {
+          "description": "Query1",
+          "name": "query1",
+          "type": "string"
+        },
+        {
+          "description": "Query2",
+          "name": "query2",
+          "type": "string"
+        },
+        {
+          "description": "Query3",
+          "name": "query3",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
